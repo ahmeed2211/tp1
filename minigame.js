@@ -6,8 +6,8 @@ function playagain(){
 }
 document.getElementById('attempts').textContent=attempts;
 function guessgame(x){
+    let c=Math.random();
     while(attempts < 3){
-        let x=Math.random();
         let guess = prompt("please enter your guess");
         while(isNaN(guess)){
             guess = prompt("please enter a valid number");
