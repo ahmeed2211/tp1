@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="mini game" content="un mini jeu de guess">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="minigame.css">
+</head>
+<body>
+    <h1>
+        <style>
+        h1{
+            color: red;
+            text-size-adjust: 20px;
+        }</style>
+        <p>Welcome to this game. There are three levels : 
+            <br>Facile : 1-10
+            <br>Intermediaire : 1-100
+            <br>Difficile : 1-1000
+        </p>
+        <p>Choose your level : </p>
+        <button onclick="guessgame('facile')">Facile : 1-10 </button>
+        <button onclick="guessgame('int')">Intermediaire : 1-100 </button>
+        <button onclick="guessgame('diff')">Difficile  : 1-1000 </button>
+        <p id="feedback"></p>
+        <p>Attempts <span id=attempts></span></p>
+    </h1>
+    <script src="minigame.js"></script>
+</body>
+</html>
