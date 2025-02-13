@@ -14,21 +14,21 @@ function guessgame(x){
         }
         guess = Number(guess);
         if(x == "facile"){
-            if(guess == Math.floor(x* 10)){
+            if(guess == Math.floor(c* 10)){
                 console.log("you have guessed right congrats ");
                 document.getElementById('attempts').textContent = 0;
                 return;
             }
         }
         if(x == "int"){
-            if(guess == Math.floor(x* 100)){
+            if(guess == Math.floor(c* 100)){
                 console.log("you have guessed right congrats ");
                 document.getElementById('attempts').textContent = 0;
                 return;
             }
         }
         if(x == "diff"){
-            if(guess == Math.floor(x*1000)){
+            if(guess == Math.floor(c*1000)){
                 console.log("you have guessed right congrats ");
                 document.getElementById('attempts').textContent = 0;
                 return;
@@ -54,3 +54,4 @@ function guessgame(x){
             }
         }
 }
+
