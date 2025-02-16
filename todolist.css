@@ -1,0 +1,32 @@
+﻿title {
+    color: lightblue;
+    text-align: center;
+}
+
+body {
+    background-color: beige;
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    color: red;
+    margin: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+select {
+    width: 10%;
+    height: 20px;
+}
+
+label {
+    width: 10%;
+    height: 50px;
+}

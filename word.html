@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Wordt</title>
+    <description>c'est un mini word qui permet de generer et modifier des paragraphes.</description>
+    <link rel="stylesheet" href="word.css">
+</head>
+<body>
+    <h1>Welcome to Word Document</h1>
+
+    <br>Please enter your text here :<br>
+    <div>
+        <textarea name="input text" id="itext" cols="30" rows="10"></textarea>
+    </div>
+    <p>The choice of the color and width of your paragraph is all yours with our application!!</p>
+    <div>
+        <label for="color">Choose a color:</label>
+        <input type="color" id="color" name="color" oninput="modifytext()">
+        <label for="size">Choose a size :</label>
+        <input type="range" id="size" name="size" min="10" max="100" oninput="modifytext()">
+        <label for="font">Choose font :</label>
+      
+
+    </div>
+    <script src="word.js"></script>
+</body>
+</html>

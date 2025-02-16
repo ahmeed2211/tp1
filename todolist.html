@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <description> Une applicaion qui te permet de creer une liste de taches pour chaque journee de la semaine</description>
+    <link rel="stylesheet" href="todolist.css">
+
+</head>
+
+<body>
+    <h1>To-Do List</h1>
+    <p>Choose a day and add your tasks for the cosen day</p>
+    <label for="days">Choose a day : </label>
+    <select id="days" name="days">
+        <option value="monday">Monday</option>
+        <option value="tuesday">Tuesday</option>
+        <option value="wednesday">Wednesday</option>
+        <option value="thursday">Thursday</option>
+        <option value="friday">Friday</option>
+        <option value="saturday">Saturday</option>
+        <option value="sunday">Sunday</option>
+        <option value="everyday">Everyday</option>
+    </select>
+    <label for="task">
+        <input type="text" id="task" name="task">
+        <button onclick="addtask()">Add Task</button>
+        <p id="tasks"></p>
+
+    </label>
+    <ol id="everyday">
+        <ol id="monday">
+            <p>Monday</p>
+
+        </ol>
+        <ol id="tuesday">
+            <p>Tuesday</p>
+        </ol>
+        <ol id="wednesday">
+            <p>Wednesday</p>
+        </ol>
+        <ol id="thursday">
+            <p>Thursday</p>
+        </ol>
+        <ol id="friday">
+            <p>Friday</p>
+        </ol>
+        <ol id="saturday">
+            <p>Saturday</p>
+        </ol>
+        <ol id="sunday">
+            <p>Sunday</p>
+        </ol>
+    </ol>
+    <script src="todolist.js"></script>
+</body>
+</html>
