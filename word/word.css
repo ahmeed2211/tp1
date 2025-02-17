@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+h1{
+    color: black;
+    margin: 20px 0;
+}
+
+p {
+    color: black;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+input{
+    width: 10%;
+    hight: 50px;
+}
+textarea{
+    overflow: hidden;
+    max-height: 300px;
+    max-width: 300px;
+}
